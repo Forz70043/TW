@@ -1,0 +1,2 @@
+javascript:
+$.getScript("https://shinko-to-kuma.com/scripts/backTimeFromReport.js");
