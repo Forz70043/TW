@@ -5,4 +5,69 @@ javascript:var NOBLE_GAP=100;var FORMAT='%unit% %player% %sent%';$.getScript('ht
 
 javascript:$.getScript('https://twscripts.dev/scripts/singleVillageSnipe.js');
 
+___________________________
+
+javascript:
+var translationFormat = `
+server = it
+
+# tribals.it
+
+T_ALL = Tutti
+T_ALL_SNIPES = Tutte le ninjate
+T_BB_CODE = BB-code
+T_BY_DST_VILLA = Per Villaggio Obiettivo
+T_BY_SRC_VILLA = Per villaggio di origine
+T_COMPACT_MODE = Modalità compatta
+T_LANDS_AT = Orario di arrivo
+T_LAUNCH_TIME = Orario di lancio
+T_LOADING_ENHANCER = Caricamento visualizzazione appunti...
+T_LOADING_SCRIPT = Caricamento script...
+T_MAKE_SNIPES_CHECK_SIGILS = Calcolo ninjate in corso...
+T_NO_INCS_SELECTED = Nessun attacco selezionato!
+T_RUN_ON_INCOMINGS = Questo script va lanciato dalla schermata "In arrivo", ti ci porterò ora.
+T_TARGET = Obiettivo
+T_TARGET_VILLA = Villaggio obiettivo
+T_SOURCE = Origine
+T_SOURCE_VILLA = Villaggio di origine
+T_TROOP_REQ = Truppe richieste
+T_TROOPS = Truppe
+T_USE_TROOP_ICONS = Usa icone truppe
+T_OPTIONS = Opzioni
+T_OPTIONS_SNIPE = Opzioni ninjate
+T_DISPLAY = Mostra:
+T_SNIPE = Ninjata
+T_REFRESH_1 = Lo script non si aggiornerà quando selezioni/deselezioni attacchi qui sotto!
+T_REFRESH_2 = Esegui nuovamente lo script per aggiornarlo con questi cambiamenti.
+T_MINIMUM_SNIPE_DEF = Minima difesa per ninjata
+T_ANTI_INFANTRY = anti-fanteria
+T_ANTI_CAVALRY = anti-cavalleria
+T_ANTI_ARCHER = anti-arcieri
+T_USE_OFFENSIVE_SNIPES = Ninjare anche con le off
+T_MAX_LAUNCH_TIME = Ore massime al lancio
+
+# Parts in '{{}}' should be left UNTRANSLATED!
+T_SNIPE_TIME_RANGE = Ninjate tra le {{currentTime}} e {{endTime}}
+T_SNIPES_FROM_SRC = Ninjate da {{source}}
+T_SNIPES_TO_DST = Ninjate su {{target}}
+T_NUM_SNIPES_MADE = {{count}} ninjate trovate
+
+# These are multi-text values
+# These require 12 entries separated by a comma ','
+M_TROOP_COMMON_NAMES = Lancia, Spada, Ascia, Arco, Esploratore, Cavalleria Leggera, Arciere a cavallo, Cavalleria pesante, Ariete, Catapulta, Paladino, Nobile
+M_TROOP_SHORTHAND_NAMES = sp, sw, axe, ar, sc, lc, ma, hc, ram, cat, pally, noble
+
+###### TRANSLATION REQUIRED
+# These are in-game text - they must match EXACTLY!
+## Text shown when a village has a support buff active
+T_INCOMING_SUPPORT_BUFF = Supporti in arrivo inviati nel mentre che questo è attivo viaggeranno {{perc}}% più veloci.
+## Text shown on the "incomings" page when an attack is arriving today
+T_TODAY_AT = oggi alle {{time}}
+## Text shown on the "incomings" page when an attack is arriving tomorrow
+T_TOMORROW_AT = domani alle {{time}}
+## Text shown on the "incomings" page when an attack is arriving on a specific date
+T_ON_AT = il {{date}} alle {{time}}
+`;
+$.getScript('https://tylercamp.me/tw/ez-snipe.js')
+
 
