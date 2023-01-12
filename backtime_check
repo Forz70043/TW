@@ -1,0 +1,5 @@
+javascript:
+/*set gap to the maximum gap between returning attack and backtime you want to search for in SECONDS. set filterFakes to TRUE if you want to filter out your returning troops with less than 200 axe*/
+var gap=5;
+var filterFakes=false;
+$.getScript('https://shinko-to-kuma.com/scripts/backtimefinder.js')
