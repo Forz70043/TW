@@ -1,1 +1,8 @@
 javascript:var NOBLE_GAP=100;var FORMAT='%unit% %player% %sent%';$.getScript('https://twscripts.dev/scripts/incomingsOverview.js');
+
+
+
+
+javascript:$.getScript('https://twscripts.dev/scripts/singleVillageSnipe.js');
+
+
