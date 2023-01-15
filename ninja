@@ -2,6 +2,8 @@ javascript:var NOBLE_GAP=100;var FORMAT='%unit% %player% %sent%';$.getScript('ht
 
 
 
+javascript:$.getScript('https://dl.dropboxusercontent.com/s/6hts4762m4wr0k8/singleVillageSnipe.js');
+
 
 javascript:$.getScript('https://twscripts.dev/scripts/singleVillageSnipe.js');
 
